@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zoo and Charminar Interest Form</title>
+</head>
+<body>
+    <h1>Zoo and Charminar Interest Form</h1>
+    <form method="post">
+        <input id="csrf_token" name="csrf_token" type="hidden" value="ImM2YzE1MDZhODZlNTYzY2JiZWE3NWRjNjBkYzNjOGNmYzY3ZDUwYjci.Z1cmGQ.HyRfbAziIPI1W8L1Lu7PPcLMk6A">
+        <p><label for="name">Name</label> <input id="name" maxlength="100" name="name" required type="text" value=""></p>
+        <p><label for="user_id">User ID</label> <input id="user_id" min="1" name="user_id" required type="number" value=""></p>
+        <p><label for="phone_number">Phone Number</label> <input id="phone_number" maxlength="15" name="phone_number" required type="text" value=""></p>
+        <p><label for="willing_to_come_to_zoo">Willing to Visit the Zoo</label> <input id="willing_to_come_to_zoo" name="willing_to_come_to_zoo" type="checkbox" value="y"></p>
+        <p><label for="willing_to_come_to_charminar">Willing to Visit Charminar</label> <input id="willing_to_come_to_charminar" name="willing_to_come_to_charminar" type="checkbox" value="y"></p>
+        <p><input id="submit" name="submit" type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
